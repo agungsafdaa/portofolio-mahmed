@@ -2,6 +2,21 @@ p
 body {
   background: #151715; }
 
+#deskripsi {
+  opacity: 1;
+  transition: opacity 1s; }
+
+#deskripsi.fade {
+  opacity: 0; }
+
+.button-faris {
+  padding: 10px;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  color: #fff;
+  text-transform: capitalize;
+  background: none; }
+
 .navbar-faris {
   padding: 5px 0;
   position: absolute !important;
