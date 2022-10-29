@@ -42,5 +42,10 @@ body {
     font-size: 42px;
     line-height: 53px;
     color: #FFFFFF; }
+  .hero .deskripsi {
+    width: 50%; }
+    @media screen and (max-width: 959px) {
+      .hero .deskripsi {
+        width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */

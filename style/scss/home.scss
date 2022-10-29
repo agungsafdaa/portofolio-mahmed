@@ -16,4 +16,10 @@
         color: #FFFFFF;
 
     }
+    .deskripsi{
+        width:50%;
+        @include lt-md{
+            width:100%;
+        }
+    }
 }
