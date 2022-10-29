@@ -1,0 +1,31 @@
+p
+body {
+  background: #151715; }
+
+.navbar-faris {
+  padding: 5px 0;
+  position: absolute !important;
+  box-shadow: none !important;
+  z-index: 100;
+  background-color: unset !important;
+  width: 100%; }
+  .navbar-faris a {
+    color: #fff; }
+
+.hero {
+  background: url(../../img/hero.png);
+  background-size: cover;
+  object-fit: cover;
+  height: 100vh;
+  padding: 170px 0 150px;
+  display: flex;
+  align-items: center; }
+  .hero p {
+    color: #FFB800; }
+  .hero h3 {
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 53px;
+    color: #FFFFFF; }
+
+/*# sourceMappingURL=main.css.map */
