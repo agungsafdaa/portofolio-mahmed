@@ -1,11 +1,32 @@
-.navbar-faris{
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+        justify-content: space-between;
+    }
+}
+
+.navbar-faris {
     padding: 5px 0;
-    position: absolute!important;
-    box-shadow: none!important;
+    position: absolute !important;
+    box-shadow: none !important;
     z-index: 100;
-    background-color: unset!important;
+    background-color: unset !important;
     width: 100%;
-   a{
-    color:#fff;
-   }
+
+    a {
+        color: #fff;
+    }
+
+    .navbar-logo {
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 33px;
+    }
+
+    
+        .active {
+            color: #FFB800;
+        }
+   
 }
