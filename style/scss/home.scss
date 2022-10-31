@@ -166,7 +166,7 @@
     .swiper-slide {
         text-align: center;
         font-size: 18px;
-       
+
         display: -webkit-box;
         display: -ms-flexbox;
         display: -webkit-flex;
@@ -193,6 +193,98 @@
 
 }
 
-.my-skill{
-    margin:100px 0;
+.my-skill {
+    margin: 100px 0;
+
+    .scroll-me {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+
+        p {
+            transform: rotate(270deg);
+        }
+    }
+
+    .card-skill {
+        background: url(../../img/skill.png);
+        background-size: cover;
+        object-fit: cover;
+        border-radius: 4px;
+        height: 100%;
+        width: 520px;
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+    }
+
+    .row-skill {
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+        height: 500px;
+        overflow: scroll;
+        overflow-x: hidden;
+
+        .skill {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+
+            .cta {
+                margin: 20px 0;
+                text-align: left;
+            }
+
+
+        }
+
+    }
+
+    .row-skill::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    /* Track */
+    .row-skill::-webkit-scrollbar-track {
+        // -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+
+    /* Handle */
+    .row-skill::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        // background: rgba(255,0,0,0.8); 
+        // -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    }
+
+    .row-skill::-webkit-scrollbar-thumb:window-inactive {
+        background: none;
+    }
+}
+
+.contact-me {
+    color: #ffff;
+    margin: 50px 0;
+
+    .card {
+        background: #ACB5DE;
+        padding: 70px 0;
+        border-radius: 10px;
+        text-align: center;
+
+        p {
+            margin: 30px 0;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+        }
+    }
 }
