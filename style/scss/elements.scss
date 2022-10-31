@@ -1,25 +1,37 @@
-$secondary-color:#FFB800;
+$secondary-color: #FFB800;
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 
 
-body{
-    background: #151715!important;
-    font-family: 'Mulish', sans-serif!important;
+body {
+  background: #151715 !important;
+  font-family: 'Mulish', sans-serif !important;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.secondary-color {
+  color: $secondary-color;
 }
 
 #deskripsi {
-    opacity: 1;
-    transition: opacity 1s; 
-  }
-  
-  #deskripsi.fade {
-    opacity: 0;
-  }
+  opacity: 1;
+  transition: opacity 1s;
+}
 
-  .button-faris{
- padding:10px;
-border: 1px solid #FFFFFF;
-border-radius: 4px;
-    color:#fff;
-    text-transform: capitalize;
-    background:none;
-  }
+#deskripsi.fade {
+  opacity: 0;
+}
+
+.button-faris {
+  padding: 10px;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  color: #fff;
+  text-transform: capitalize;
+  background: none;
+}
