@@ -114,7 +114,7 @@
         background-repeat: no-repeat;
 
         .content {
-            padding: 100px 0;
+            padding: 26px 0 53px 0;
 
             .heading {
                 margin: 50px 0;
@@ -123,14 +123,19 @@
 
                 h3 {
                     line-height: 1.6;
+                    font-size:46px;
                 }
 
                 p {
                     color: $secondary-color;
                 }
             }
+            .laptop{
+                width:638px;
+            }
 
             .reason {
+                padding:0 50px; 
                 ul {
                     list-style: none;
 
@@ -142,6 +147,7 @@
                     }
 
                     p {
+                        width:596px;
                         font-size: 18px;
                         line-height: 150%;
                     }
@@ -195,7 +201,9 @@
 
 .my-skill {
     margin: 100px 0;
-
+    background:url(../../img/arrow.png);
+    background-repeat: no-repeat;
+    background-position: 40px;
     .scroll-me {
         display: flex;
         justify-content: center;
@@ -220,6 +228,10 @@
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
+            h4{
+                font-size: 32px;
+                line-height: 150%;
+            }
         }
     }
 
@@ -235,10 +247,19 @@
             display: flex;
             align-items: flex-start;
             flex-direction: column;
-
+            h4{
+                margin-top: 10px;
+            }
+         
             .cta {
                 margin: 20px 0;
                 text-align: left;
+                h4{
+                    margin-top: 10px;
+                }
+                p{
+                    width:90%;
+                }
             }
 
 
@@ -283,7 +304,7 @@
         p {
             margin: 30px 0;
             font-weight: 500;
-            font-size: 16px;
+            font-size: 24px;
             line-height: 150%;
         }
     }

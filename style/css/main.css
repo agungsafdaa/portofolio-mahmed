@@ -122,25 +122,31 @@ body {
     background-size: 366px 788px;
     background-repeat: no-repeat; }
     .why-me .pattern .content {
-      padding: 100px 0; }
+      padding: 26px 0 53px 0; }
       .why-me .pattern .content .heading {
         margin: 50px 0;
         color: #fff;
         line-height: 150%; }
         .why-me .pattern .content .heading h3 {
-          line-height: 1.6; }
+          line-height: 1.6;
+          font-size: 46px; }
         .why-me .pattern .content .heading p {
           color: #FFB800; }
-      .why-me .pattern .content .reason ul {
-        list-style: none; }
-        .why-me .pattern .content .reason ul li {
-          font-weight: 300;
-          font-size: 32px;
-          line-height: 150%;
-          margin: 20px 0; }
-        .why-me .pattern .content .reason ul p {
-          font-size: 18px;
-          line-height: 150%; }
+      .why-me .pattern .content .laptop {
+        width: 638px; }
+      .why-me .pattern .content .reason {
+        padding: 0 50px; }
+        .why-me .pattern .content .reason ul {
+          list-style: none; }
+          .why-me .pattern .content .reason ul li {
+            font-weight: 300;
+            font-size: 32px;
+            line-height: 150%;
+            margin: 20px 0; }
+          .why-me .pattern .content .reason ul p {
+            width: 596px;
+            font-size: 18px;
+            line-height: 150%; }
 
 .swiper {
   width: 100%;
@@ -172,6 +178,9 @@ body {
 
 .my-skill {
   margin: 100px 0;
+  background: url(../../img/arrow.png);
+  background-repeat: no-repeat;
+  background-position: 40px;
   /* Track */
   /* Handle */ }
   .my-skill .scroll-me {
@@ -193,6 +202,9 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: flex-end; }
+      .my-skill .card-skill .card-body h4 {
+        font-size: 32px;
+        line-height: 150%; }
   .my-skill .row-skill {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -203,9 +215,15 @@ body {
       display: flex;
       align-items: flex-start;
       flex-direction: column; }
+      .my-skill .row-skill .skill h4 {
+        margin-top: 10px; }
       .my-skill .row-skill .skill .cta {
         margin: 20px 0;
         text-align: left; }
+        .my-skill .row-skill .skill .cta h4 {
+          margin-top: 10px; }
+        .my-skill .row-skill .skill .cta p {
+          width: 90%; }
   .my-skill .row-skill::-webkit-scrollbar {
     width: 12px; }
   .my-skill .row-skill::-webkit-scrollbar-track {
@@ -228,7 +246,7 @@ body {
     .contact-me .card p {
       margin: 30px 0;
       font-weight: 500;
-      font-size: 16px;
+      font-size: 24px;
       line-height: 150%; }
 
 /*# sourceMappingURL=main.css.map */
