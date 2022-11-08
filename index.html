@@ -28,7 +28,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <header>
@@ -167,23 +167,27 @@
       <div class="pattern">
         <div class="content">
           <div class="heading">
-            <div class="container"  data-aos="zoom-out-up">
+            <div class="container" data-aos="zoom-out-up">
               <h3>
                 Why you should hire me? Because four things
                 <span class="secondary-color">
                   <br />
-                 I always promise:</span
+                  I always promise:</span
                 >
               </h3>
             </div>
           </div>
           <div class="row">
             <div class="col-lg-5 col-xs-12">
-              <img class="laptop" src="img/laptop.png" class="img-fluid" alt="bg-laptop" />
+              <img
+                class="laptop"
+                src="img/laptop.png"
+                class="img-fluid"
+                alt="bg-laptop"
+              />
             </div>
             <div class="col-lg-5 col-xs-12">
-              <div class="reason" 
-              >
+              <div class="reason">
                 <ul>
                   <li>
                     <span><img src="img/1.png" alt="number" /></span> Passionate
@@ -217,7 +221,6 @@
     <div class="my-skill">
       <div class="container">
         <div class="row">
-        
           <div class="col-lg-6 col-xs-12">
             <div class="row-skill" data-aos="fade-down-right">
               <div class="skill">
@@ -282,16 +285,15 @@
             </div>
           </div>
 
-          <div class="col-lg-6 col-xs-12" >
+          <div class="col-lg-6 col-xs-12">
             <div class="card card-skill" data-aos="fade-down-left">
-              <div class="card-body" >
+              <div class="card-body">
                 <p class="secondary-color">My Skills</p>
                 <h4>
-                  My skill is ready to collaborate with you! With a lot of design
-                  tools
+                  My skill is ready to collaborate with you! With a lot of
+                  design tools
                 </h4>
               </div>
-            
             </div>
           </div>
         </div>
@@ -302,8 +304,11 @@
       <div class="container">
         <div class="card">
           <div class="card-body">
-              <h1>Ready to next collaboration? Let's we do it!</h1>
-              <p>Send Email to farisabdulazizmr@gmail.com or whatsapp me at +62821 7730 1337</p>
+            <h1>Ready to next collaboration? Let's we do it!</h1>
+            <p>
+              Send Email to farisabdulazizmr@gmail.com or whatsapp me at +62821
+              7730 1337
+            </p>
           </div>
         </div>
       </div>
@@ -314,32 +319,37 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
+     
+
       var swiper = new Swiper(".mySwiper", {
         slidesPerView: 4,
         spaceBetween: 20,
         autoHeight: true,
         centeredSlides: true,
         autoplay: {
-          delay: 2500,
+          delay: 3500,
           disableOnInteraction: false,
         },
-      });
-      var swiper = new Swiper(".swiper-container", {
-        slidesPerView: 3,
-        grid: {
-          rows: 2,
-        },
-        spaceBetween: 30,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
+        }
       });
     </script>
-
-<script>
-  AOS.init();
-</script>
+    
+    <script>
+      AOS.init();
+    </script>
     <script>
       var i = 0,
         text;

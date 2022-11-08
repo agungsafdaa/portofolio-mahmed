@@ -261,6 +261,9 @@ body {
     display: flex;
     align-items: center;
     padding-left: 100px; }
+    @media screen and (max-width: 959px) {
+      .about-me .welcome {
+        padding: 10px; } }
     .about-me .welcome .button-faris {
       font-size: 16px;
       margin-top: 40px; }
@@ -281,6 +284,9 @@ body {
       justify-content: center; }
       .about-me .me .foto img {
         width: 90%; }
+        @media screen and (max-width: 959px) {
+          .about-me .me .foto img {
+            width: 80%; } }
   .about-me p {
     color: #FFB800; }
   .about-me .deskripsi {
