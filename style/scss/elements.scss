@@ -16,6 +16,16 @@ body {
   color: #FFFFFF;
 }
 
+.color-white{
+  color: #FFFFFF;
+}
+
+.hide-mobile{
+  @include lt-md{
+    display:none;
+  }
+}
+
 .secondary-color {
   color: $secondary-color;
 }

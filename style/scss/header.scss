@@ -17,11 +17,16 @@
     a {
         color: #fff;
     }
-
+    .navbar-nav{
+        @include lt-md{
+            text-align: right;
+        }
+    }
     .navbar-logo {
         font-weight: 800;
         font-size: 26px;
         line-height: 33px;
+      
     }
 
     
