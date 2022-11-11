@@ -6,6 +6,13 @@
     }
 }
 
+.hide-desktop{
+    display: none;
+    @include lt-md{
+        display: block;
+    }
+}
+
 .navbar-faris {
     padding: 5px 0;
     position: absolute !important;

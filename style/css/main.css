@@ -40,6 +40,12 @@ body {
     display: flex !important;
     flex-basis: auto;
     justify-content: space-between; } }
+.hide-desktop {
+  display: none; }
+  @media screen and (max-width: 959px) {
+    .hide-desktop {
+      display: block; } }
+
 .navbar-faris {
   padding: 5px 0;
   position: absolute !important;
